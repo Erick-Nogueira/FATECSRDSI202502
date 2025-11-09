@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = trim($_POST['email'] ?? '');
 
    
-    $emails_validos = [
+    $emails_validos = [ 
         'aluno@test.com.br',
         'professor@test.com.br',
         'flaviaerick666@gmail.com',
