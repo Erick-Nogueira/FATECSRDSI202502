@@ -6,7 +6,7 @@ $mensagem = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = trim($_POST['email'] ?? '');
 
-    //e-mails válidos (como ainda não há banco de dados)
+   
     $emails_validos = [
         'aluno@test.com.br',
         'professor@test.com.br',
